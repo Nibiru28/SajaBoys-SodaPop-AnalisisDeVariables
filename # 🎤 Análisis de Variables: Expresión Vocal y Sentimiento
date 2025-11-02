@@ -1,0 +1,30 @@
+# 🎤 Análisis de Variables: Expresión Vocal y Sentimiento
+
+## Variables Analizadas
+1. **estilo_vocal** (TEXT)
+2. **emocion_predominante** (TEXT)
+
+---
+
+### 1. Relación entre las variables
+Ambas variables describen la **entrega interpretativa** de la canción. El `estilo_vocal` es la técnica o forma en que se canta (la manera), mientras que `emocion_predominante` es el sentimiento primario que se intenta transmitir a través de esa técnica (el qué se siente). La técnica vocal se usa para expresar la emoción.
+
+### 2. Similitudes
+Son variables **subjetivas y categóricas** que dependen de la percepción del analista para ser clasificadas. Ambas son claves para entender el impacto psicológico y artístico de la interpretación.
+
+### 3. Qué miden
+* **estilo_vocal:** Mide la técnica o modo de canto utilizado (ej: 'Hablando', 'Rapeando', 'Melódico', 'Gritando').
+* **emocion_predominante:** Mide el estado de ánimo o sentimiento principal que domina la pieza musical (ej: 'Alegría', 'Ira', 'Melancolía', 'Euforia').
+
+### 4. Por qué son medibles y comparables
+* **Medibles:** Se hacen medibles mediante la **categorización**. Se define un conjunto limitado de estilos y emociones (ej: 5 estilos, 7 emociones) y se cuenta la frecuencia de cada uno. Esto cumple con el requisito de ser medibles.
+* **Comparables:** Permiten el análisis de la congruencia interpretativa. Se puede comparar si un `estilo_vocal` de 'Gritando' siempre se correlaciona con una `emocion_predominante` de 'Ira', o si el artista intenta una entrega más compleja.
+
+---
+
+### 5. Historial de los pasos que siguieron
+1.  Se creó el repositorio base (`SajaBoys-SodaPop-AnalisisDeVariables`) con el README.
+2.  Se creó la rama de trabajo `expresion-vocal` a partir de `main`.
+3.  Se creó el archivo `expresion-vocal.md` en la interfaz web de GitHub.
+4.  Se documentaron las variables `estilo_vocal` y `emocion_predominante` siguiendo todos los requisitos de la tarea.
+5.  Se realizó el commit (confirmación) directamente en la rama.
