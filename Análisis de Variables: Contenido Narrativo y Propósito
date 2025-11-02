@@ -1,0 +1,30 @@
+# 📖 Análisis de Variables: Contenido Narrativo y Propósito
+
+## Variables Analizadas
+1. **tema_principal** (TEXT)
+2. **mensaje_final** (TEXT)
+
+---
+
+### 1. Relación entre las variables
+Ambas variables definen el **propósito y el fondo temático** de la canción. El `tema_principal` establece el foco narrativo general (la historia o concepto central), mientras que el `mensaje_final` es la conclusión o lección explícita que se desprende de ese tema. Uno es el enfoque, el otro la conclusión.
+
+### 2. Similitudes
+Son variables **descriptivas y categóricas** (texto libre) que requieren interpretación humana para su clasificación. Ambas se centran en el **significado** de la letra, no en la forma musical o el idioma.
+
+### 3. Qué miden
+* **tema_principal:** Mide el concepto o asunto central sobre el que versa la letra de la canción (ej: 'amor no correspondido', 'crítica social', 'celebración').
+* **mensaje_final:** Mide la intención o moraleja que el artista intenta dejar al oyente al finalizar la canción (ej: 'nunca rendirse', 'valorar el presente').
+
+### 4. Por qué son medibles y comparables
+* **Medibles:** Se vuelven medibles cuando se les aplica un **sistema de codificación** (categorización). Por ejemplo, podemos contar la frecuencia de canciones cuyo `tema_principal` se clasifica en 'Romance' vs. 'Política'.
+* **Comparables:** Permiten hacer análisis cualitativos y comparaciones de tendencias. Por ejemplo, se puede comparar si las canciones con un `tema_principal` de 'Crítica Social' siempre tienen un `mensaje_final` de 'Llamada a la Acción'.
+
+---
+
+### 5. Historial de los pasos que siguieron
+1.  Se creó el repositorio base (`SajaBoys-SodaPop-AnalisisDeVariables`) con el README.
+2.  Se creó la rama de trabajo `contenido-narrativo` a partir de `main`.
+3.  Se creó el archivo `contenido-narrativo.md` en la interfaz web de GitHub.
+4.  Se documentaron las variables `tema_principal` y `mensaje_final` siguiendo todos los requisitos de la tarea.
+5.  Se realizó el commit (confirmación) directamente en la rama.
