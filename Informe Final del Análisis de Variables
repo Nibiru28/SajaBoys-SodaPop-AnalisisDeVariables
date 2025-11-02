@@ -1,0 +1,28 @@
+# 📄 Informe Final del Análisis de Variables
+
+## 1. Objetivo y Metodología
+El objetivo de esta tarea fue demostrar la capacidad de organizar un proyecto de análisis de datos usando el control de versiones de Git y GitHub, enfocándose en la documentación detallada de la medición de variables.
+
+El proceso siguió la metodología de "Feature Branching", donde cada pareja de variables fue documentada en una rama separada para simular el trabajo en equipo y el aislamiento de tareas.
+
+## 2. Estructura del Repositorio
+El repositorio contiene una rama principal (`main`) y cinco ramas de trabajo, cada una conteniendo un archivo Markdown (`.md`) con la documentación de dos variables relacionadas:
+
+| Rama                    | Variables Documentadas             | Temática                     |
+| ----------------------- | ---------------------------------- | -----------------------------|
+| `metadata-temporal`     | anio_lanzamiento, duracion         | Aspectos de tiempo           |
+| `identidad-linguistica` | idioma_principal, interpretes      | Origen y lenguaje            |
+| `contenido-narrativo`   | tema_principal, mensaje_final      | Significado de la letra      |
+| `forma-musical`         | genero, ritmo_instrumentacion      | Estructura y arreglo sonoro  |
+| `expresion-vocal`       | estilo_vocal, emocion_predominante | Interpretación y sentimiento |
+
+## 3. Conclusión sobre las Variables
+Todas las variables de la base de datos se consideran medibles y comparables. Incluso las variables cualitativas (TEXTO) como el `genero` o la `emocion_predominante` se vuelven medibles al aplicar un **sistema de codificación** o de **conteo de frecuencias** de categorías predefinidas.
+
+## 4. Historial de Pasos del Flujo de Trabajo
+1.  Creación del repositorio en GitHub.
+2.  Creación de 5 ramas temáticas (una por pareja de variables).
+3.  En cada rama, se creó un archivo `.md` documentando la relación, similitudes, qué miden y por qué son medibles.
+4.  Los archivos de documentación fueron confirmados (`Commit`) directamente en sus respectivas ramas.
+5.  Finalmente, se creó este `Informe_Final.md` en la rama `main`.
+6.  El último paso será la fusión de las 5 ramas documentadas a `main` mediante *Pull Requests*.
