@@ -1,0 +1,30 @@
+# 🎶 Análisis de Variables: Forma Musical y Arreglo
+
+## Variables Analizadas
+1. **genero** (TEXT)
+2. **ritmo_instrumentacion** (TEXT)
+
+---
+
+### 1. Relación entre las variables
+Ambas variables definen la **estructura y el estilo sonoro** de la canción. El `genero` es la clasificación estilística amplia de la pieza (el marco), mientras que `ritmo_instrumentacion` describe los elementos específicos que ejecutan ese género (la paleta de sonidos y el pulso).
+
+### 2. Similitudes
+Son variables **categóricas** que se centran en la **estructura auditiva** de la canción. Ambas son esenciales para catalogar la pieza en términos de su identidad musical formal.
+
+### 3. Qué miden
+* **genero:** Mide la clasificación musical principal a la que pertenece la canción (ej: 'Pop', 'Rock Alternativo', 'Trap').
+* **ritmo_instrumentacion:** Mide los elementos específicos del arreglo musical que definen el pulso y el timbre (ej: 'ritmo rápido con percusión electrónica pesada y sintetizadores').
+
+### 4. Por qué son medibles y comparables
+* **Medibles:** Aunque son texto, se hacen medibles a través de la **categorización**. Podemos agrupar las respuestas en categorías discretas (ej: contar cuántas canciones son 'Pop' y cuántas usan 'batería acústica').
+* **Comparables:** Permiten buscar patrones en el diseño sonoro. Se puede comparar si la variable `genero` de 'Cumbia' siempre se correlaciona con una descripción de `ritmo_instrumentacion` que incluye 'timbales y güiro'.
+
+---
+
+### 5. Historial de los pasos que siguieron
+1.  Se creó el repositorio base (`SajaBoys-SodaPop-AnalisisDeVariables`) con el README.
+2.  Se creó la rama de trabajo `forma-musical` a partir de `main`.
+3.  Se creó el archivo `forma-musical.md` en la interfaz web de GitHub.
+4.  Se documentaron las variables `genero` y `ritmo_instrumentacion` siguiendo todos los requisitos de la tarea.
+5.  Se realizó el commit (confirmación) directamente en la rama.
