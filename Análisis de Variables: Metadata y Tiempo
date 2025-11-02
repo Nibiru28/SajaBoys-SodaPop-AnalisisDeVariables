@@ -1,0 +1,30 @@
+# 🏷️ Análisis de Variables: Metadata y Tiempo
+
+## Variables Analizadas
+1. **anio_lanzamiento** (INTEGER)
+2. **duracion** (TEXT/Formato de tiempo)
+
+---
+
+### 1. Relación entre las variables
+Ambas variables están relacionadas por el **tiempo**. El `anio_lanzamiento` establece el contexto histórico de la canción (cuándo fue creada), mientras que la `duracion` define el tiempo de consumo necesario para experimentar la pieza (cuánto dura).
+
+### 2. Similitudes
+Ambas son métricas de metadatos (datos sobre los datos) y, una vez normalizadas, son **cuantitativas** (números) lo que facilita su uso en análisis estadísticos.
+
+### 3. Qué miden
+* **anio_lanzamiento:** Mide el año civil exacto en que la canción fue publicada.
+* **duracion:** Mide el lapso total de tiempo, típicamente en minutos y segundos, de la pista de audio.
+
+### 4. Por qué son medibles y comparables
+* **Medibles:** El año es un número entero (`INTEGER`), y la duración puede convertirse a segundos (un valor numérico), haciendo ambas variables directamente cuantificables.
+* **Comparables:** Se pueden comparar fácilmente con otras canciones para identificar tendencias. Por ejemplo, se puede determinar si las canciones más recientes (mayor `anio_lanzamiento`) tienden a ser más cortas o más largas (menor/mayor `duracion`) que las canciones antiguas.
+
+---
+
+### 5. Historial de los pasos que siguieron
+1.  Se creó el repositorio base (`SajaBoys-SodaPop-AnalisisDeVariables`) con el README.
+2.  Se creó la rama de trabajo `metadata-temporal` a partir de `main`.
+3.  Se creó el archivo `metadata-temporal.md` en la interfaz web de GitHub.
+4.  Se documentaron las variables `anio_lanzamiento` y `duracion` siguiendo todos los requisitos de la tarea.
+5.  Se realizó el commit (confirmación) directamente en la rama.
