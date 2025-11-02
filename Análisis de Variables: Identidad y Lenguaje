@@ -1,0 +1,30 @@
+# 🗣️ Análisis de Variables: Identidad y Lenguaje
+
+## Variables Analizadas
+1. **idioma_principal** (TEXT)
+2. **interpretes** (TEXT)
+
+---
+
+### 1. Relación entre las variables
+Ambas variables definen la **identidad cultural y el origen** de la canción. El `idioma_principal` establece la base lingüística y cultural del mensaje, mientras que `interpretes` identifica a los agentes culturales (artistas) responsables de transmitir ese mensaje.
+
+### 2. Similitudes
+Ambas son variables **categóricas** (representadas como TEXTO en la base de datos) que permiten clasificar la canción en grupos basados en su procedencia o ejecución. Ayudan a la **trazabilidad** (saber quién y de dónde viene).
+
+### 3. Qué miden
+* **idioma_principal:** Mide la lengua dominante utilizada en la letra de la canción (ej: 'Español', 'Inglés').
+* **interpretes:** Mide el conjunto de artistas o grupos acreditados por la ejecución vocal o instrumental principal de la canción.
+
+### 4. Por qué son medibles y comparables
+* **Medibles:** Aunque son texto, son medibles al ser **variables nominales/categóricas**. Se pueden contar las ocurrencias (frecuencia) de cada idioma o de cada intérprete en la base de datos.
+* **Comparables:** Permiten realizar análisis de frecuencia cruzada. Por ejemplo, se puede comparar si ciertos `interpretes` tienden a usar un `idioma_principal` más que otros, o si existe una correlación entre el idioma y el éxito de la canción (si se incluyera una variable de éxito).
+
+---
+
+### 5. Historial de los pasos que siguieron
+1.  Se creó el repositorio base (`SajaBoys-SodaPop-AnalisisDeVariables`) con el README.
+2.  Se creó la rama de trabajo `identidad-linguistica` a partir de `main`.
+3.  Se creó el archivo `identidad-linguistica.md` en la interfaz web de GitHub.
+4.  Se documentaron las variables `idioma_principal` e `interpretes` siguiendo todos los requisitos de la tarea.
+5.  Se realizó el commit (confirmación) directamente en la rama.
